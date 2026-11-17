@@ -55,4 +55,18 @@ while True:
             front = passengers.pop()
             print(front, "got off at the front")
 
-    elif choice "6":
+    elif choice == "6":
+        for i in range(len(passengers)):
+            print("seat", i + 1, passengers[1])
+
+    elif choice == "7":
+        route.reverse()
+        print("route: ", route)
+
+    elif choice == "8":
+        print("total fare today: ", total)
+        break
+
+
+    else:
+        print("invalid choice")
